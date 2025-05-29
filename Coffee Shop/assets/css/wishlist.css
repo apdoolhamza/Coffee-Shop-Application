@@ -1,0 +1,38 @@
+.wishList{
+    height:calc(100vh - 8.4rem);
+}
+.addtocart{
+    font-size:10px;
+    padding:10px;
+    border-radius:5px;
+    background-color: #b85628;
+    color:white;
+}
+.addtocart i{
+    font-size:14px;
+    margin-right:3px;
+}
+
+
+@media screen and (max-width:460px) {
+    .addtocart span{
+        display:none;
+    }
+    .addtocart{
+        padding:8px 9px;
+        white-space:nowrap;
+        margin:0 3px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .addtocart{
+        padding:7px;
+        font-size:8px;
+    }
+    .addtocart i{
+        font-size:13px;
+        margin-right:0;
+    }
+
+}

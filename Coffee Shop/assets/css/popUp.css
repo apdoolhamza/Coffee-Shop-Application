@@ -1,0 +1,42 @@
+.pop-up{
+width:15rem;
+height:35px;
+position:fixed;
+display:flex;
+justify-content:center;
+align-items:center;
+top:10px;
+left:0;
+right:0;
+padding:10px 13px;
+margin:0 auto;
+border-radius:5px;
+background-color:white;
+color:black;
+font-size:13px;
+line-height:18px;
+z-index:99999;
+animation: marginTop .3s;
+display:none;
+}
+@keyframes marginTop {
+   10%{margin-top:20px;}
+}
+.pop-up .exclamIcon{
+    font-size:18px;
+}
+.pop-up .closeIcon{
+    cursor:pointer;
+    padding:4px;
+}
+.pop-up .popTitle{
+    margin-left:8px;
+}
+.pop-up .popDesc{
+width:12.3rem;
+font-size:12px;
+color:rgb(75, 75, 75);
+letter-spacing:.1px;
+margin:0 5px 0 8px;
+line-height:1;
+}

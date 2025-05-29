@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior:smooth;
+    user-select:none;
+}
+a{
+    text-decoration:none;
+}
+::-webkit-scrollbar{
+    display:none;
+}
+body,
+main,
+form{
+    background:#02040b;
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    line-height:40px;
+    font-size:20px;
+    font-family:sans-serif, Arial, Helvetica;
+}
+.center{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center; 
+}
+main{
+height:10rem;
+}
+span{
+    color: #b85628;
+}
+form button[type="submit"],
+form input{
+    background-color:#b85628;
+    outline:none;
+    border:none;
+    color:inherit;
+    width:16.5em;
+    height:44px;
+    border-radius:25px;
+    position:absolute;
+    bottom:60px;
+    cursor:pointer;
+    font-size:16px;
+    font-family: inherit;
+}
+
+form{
+    line-height: normal;
+    justify-content:space-evenly;
+    text-align:center;
+}
+form div{
+text-align:center;
+font-family:monospace;
+letter-spacing:-1px;
+}
+form .title h3{
+    font-size:20px;
+    margin:5px 0;
+}
+form input{
+    width:14.4em;
+    height:38px;
+    position:relative;
+    bottom:0;
+    padding:0 15px;
+    padding-bottom:2px;
+    border:none;
+    box-shadow:0 0 4px #b85628c7;
+    margin-top:27px;
+    cursor:default;
+    font-size:16px;
+    background-color:#b8562815;
+}
+form input::placeholder{
+    color:#c1c1c1;
+    font-size:14px;
+}
+form input:focus{
+    box-shadow:0 0 4px 2px #b85628;
+}
+form #PassVisibility{
+  position:absolute;
+  font-size:13px;
+  background-color:#b8562818;
+  width:48px;
+  height:28px;
+  line-height:28px;
+  margin-top:32px;
+  margin-left:-54.5px;
+  cursor:pointer;
+  border-radius:15px;
+  padding-top:2px
+}
+form .fa-eye-slash{
+    color:#c1c1c1;
+}
+form .fa-eye{
+    color:white;
+}
+form .forgotPass{
+    display:block;
+    font-size:14px;
+    position:absolute;
+    color:white;
+    margin-top:9px;
+    margin-left:11em;  
+}
+form button[type="submit"]{
+    position:relative;
+    margin-top:45px;
+    bottom:0;
+}
+form .haveanAccount{
+    font-size:14px;
+    line-height:28px;
+    font-family:monospace;
+    margin-top:30px;
+}
+form p a{
+    color:#b85628;
+    font-size:16px;
+    font-weight:bold;
+}
+
+
+@media screen and (min-width:550px) {
+form{
+    background:#44382f15;
+    border-radius:10px;
+    padding:10px 0;
+    width:20rem;
+}
+}
+@media screen and (max-width:290px) {
+    body{
+      min-width:290px;
+      white-space:nowrap;
+      overflow:scroll;
+    }
+    ::-webkit-scrollbar{
+        display:block;
+        width:2px;
+        height:2px;
+    }
+    body::-webkit-scrollbar-thumb{
+        border-radius:2px;
+        background-color: #b85628;
+    }
+  }

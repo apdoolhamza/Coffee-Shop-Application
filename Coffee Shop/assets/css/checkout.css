@@ -1,0 +1,133 @@
+.backBtn{
+    box-shadow:0 0 2px 1px #cd6332;
+}
+.wrapper{
+    height:calc(100vh - 14rem);
+    font-family:'Gill Sans MT';
+}
+.checkOutHeader{
+    position:fixed;
+    top:10px;
+    width:calc(100% - 20px);
+    height:8rem;
+    border-radius:10px;
+    text-align:center;
+    background-color:#b85628;
+    z-index:10;
+}
+.checkOutHeader #totalCost{
+    width:260px;
+    height:100px;
+    border-radius:10px;
+    position:absolute;
+    left:0;
+    right:0;
+    display:grid;
+    place-items:center;
+    margin:0 auto;
+    margin-top:4.7rem;
+    background-color: white;
+    color: #07070779;
+    line-height:25px;
+    font-size:22px;
+    }
+    #totalCost small{
+        font-size:large;
+    }
+    #totalCost span{
+    color:#b85628;
+    }
+
+    .checkOutCards{
+        margin-top:13rem;
+        flex-direction:row;
+        justify-content:center;
+        overflow:hidden;
+        margin-bottom:10px;
+    }
+    .checkOutCards img{
+        filter:grayscale(100%);
+        cursor:pointer;
+        z-index:10;
+    }
+    .checkOutCards :nth-child(2){
+        padding:0 15px;
+        margin:0 15px;
+        border-left:1px solid #ffffff3e;
+        border-right:1px solid #ffffff3e;
+    }
+    .checkOutCards .active{
+        filter: grayscale(0);
+    }
+
+    form{
+        width:17rem;
+        height:calc(100vh - 17rem);
+        margin:0 auto;
+    }
+    form label{
+        display: block;
+        font-size:17px;
+        line-height:30px;
+       align-self: self-start;
+       margin-left:3px;
+    }
+    form input,
+    #payNowBtn{
+        width:14.8rem;
+        border:none;
+        outline:none;
+        height:42px;
+        border-radius:25px;
+        padding:0 15px;
+        font-size:16px;
+        background-color:white;
+        font-family:'Gill Sans MT';
+    }
+    form input::placeholder{
+        font-size:small;
+        font-family:'Gill Sans MT';
+    }
+    .cardNumContainer input{
+        padding-right:60px;
+        width:11.8rem;
+    }
+    .cardNumContainer img{
+        position:absolute;
+        margin-left:-52px;
+        margin-top:16px;
+        width:37px;
+        transition:all .1s;
+    }
+    .cardHolderContainer{
+        margin-bottom:29px;
+    }
+    .cardHolderContainer input{
+        width:14.2rem;
+    }
+    form .expdateCVVContainer{
+        display:flex;
+        margin:10px 0;
+    }
+    .expdateCVVContainer input{
+        width:88px;
+    }
+    .expdateCVVContainer .expdate{
+        margin-right:25px; 
+    }
+    form #payNowBtn{
+        margin-top:5px;
+        width:16.2rem;
+        height:43px;
+        background-color:#b85628;
+        color:white;
+        font-size:15px;
+        text-transform: uppercase;
+        font-family:'Gill Sans MT';
+    }
+
+    @media screen and (min-width:520px) {
+        .checkOutHeader{
+        width:500px;
+        }
+    }

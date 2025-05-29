@@ -1,0 +1,44 @@
+header{
+    width:100%;
+    margin:10px 0 20px 0;
+}
+
+header .navProfileBtns{
+    flex-direction:row;
+    justify-content:space-between;
+}
+.navProfileBtns .navBtn,
+.navProfileBtns a{
+    width:35px;
+    height:35px;
+    display:inline-block;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+}
+.navProfileBtns img{
+    width:35px;
+    border-radius:50%;
+    margin-right:7px;
+}
+.navBtn span{
+    width:24px;
+    height:3px;
+    display:block;
+    background-color:white;
+    margin:3px 0;
+    border-radius:2px;
+}
+.navBtn span:nth-child(2){
+    width:19px;
+    margin-right:6px;
+}
+.navBtn span:nth-child(3){
+    width:19px;
+}
+.navProfileBtns a{
+    font-size:25px;
+    color: #ffffff;
+}

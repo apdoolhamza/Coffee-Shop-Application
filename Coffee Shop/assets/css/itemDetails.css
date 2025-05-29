@@ -1,0 +1,126 @@
+.wrapper{
+    height:calc(100vh - 20px);
+}
+button{
+    cursor:pointer;
+}
+.itemHeader{
+    width:100%;
+    height:10rem;
+    overflow:hidden;
+    border-radius:10px;
+    text-align:center;
+    background-color:#b85628;
+}
+.backBtn{
+    position:fixed;
+    border:none;
+    outline:none;
+    font-size:14px;
+    width:35px;
+    height:35px;
+    padding:1px 2px 0 0;
+    border-radius:50%;
+    color:inherit;
+    background-color:#93401a;
+    margin:14px;
+}
+.itemHeader #itemImg{
+width:260px;
+height:200px;
+border-radius:10px;
+position:absolute;
+left:0;
+right:0;
+margin:0 auto;
+margin-top:5rem;
+box-shadow:0 0 1px 7px #02040b;
+}
+
+.cartFavBtns,
+.addToCartForm{
+    width:100%;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.cartFavBtns button,
+.addToCartForm .addToCartBtn{
+    width:80%;
+    height:42px;
+    font-size:16px;
+    border:none;
+    outline:none;
+    background-color:#b85628;
+    color:inherit;
+    border-radius:25px;
+    text-transform:capitalize;
+    box-shadow:0 0 2px #b85628;
+    padding-top:2px;
+}
+.cartFavBtns button{
+    margin:0 10px;
+    background-color:#b856284f;
+    box-shadow:0 0 2px 1px #b85628;
+    width:39px;
+    height:39px;
+    border-radius:50%;
+    padding-top:1px;
+}
+
+.itemDetails{
+    width:calc(100% - 30px);
+    height:calc(100vh - 23.4rem);
+    margin-top:7.8rem;
+    z-index:10;
+    padding:14px;
+    font-family:'Gill Sans MT';
+}
+.itemDetails .detailsHead,
+.hutColdReview{
+    flex-direction:row;
+    justify-content:space-between;
+    margin-bottom:10px;
+}
+.detailsHead h2{
+    font-weight:500;
+    font-size:26px;
+}
+.detailsHead .price{
+    font-size:21px;
+}
+.detailsHead .price span{
+    color:#d87141;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.hutColdReview{
+line-height:17px;
+font-size:14px;
+margin-bottom:20px;
+}
+.hutColdCoffee{
+    color:#dcdada;
+}
+.hutColdReview .hutColdCoffee span{
+    display:block;
+}
+.hutColdReview .hutColdCoffee i{
+    font-size:16px;
+}
+.hutColdReview .reviews{
+    flex-direction:row;
+}
+.hutColdReview .reviews i{
+    margin-right:5px;
+}
+.hutColdReview .reviews span{
+    color:#dcdada;
+}
+.itemDescription{
+    height:15vh;
+    height:calc(100vh - 29.5rem);
+    overflow:scroll;
+    font-size:15px;
+    letter-spacing:.1px;
+    margin-top:-5px;
+}
+
