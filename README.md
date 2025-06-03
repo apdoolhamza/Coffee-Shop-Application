@@ -1,3 +1,5 @@
+![Project Screenshot](coffeeshop.png)
+
 # Coffee-Shop-Application
 
 # Guide:
